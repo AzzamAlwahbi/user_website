@@ -70,8 +70,5 @@ DELETE USER:
 1. Click "Delete" button
 2. Confirm in dialog
 
-## Troubleshooting
-- Ensure Apache and MySQL are running
-- Check PHP version (requires PHP 7.0+)
-- Verify database credentials in config if manual setup needed
+
 
