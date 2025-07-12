@@ -1,25 +1,7 @@
 # user_website
 ![user_website](user_shot.png)
 
-
-
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Database Setup](#database-setup)
-- [Usage](#usage)
-- [Code Structure](#code-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
-
-### ✨ Luxury Dark Theme
-- Sophisticated black background with gold accents
-- Premium design with subtle animations and transitions
-- Responsive layout for all device sizes
-- Elegant typography with gradient text effects
 
 ### 👥 User Management
 - **Add Users**: Simple form to add new users with name and age
@@ -54,9 +36,42 @@
   - Gradient Effects
   - Responsive Design Principles
 
-## Installation
+- **Installation Steps**
 
-### Step 1: Environment Setup
-```bash
-# Install XAMPP (Windows) or MAMP (Mac)
-# Start Apache and MySQL services
+1. INSTALL XAMPP/MAMP
+   - Download and install XAMPP (Windows) or MAMP (Mac)
+   - Start Apache and MySQL services
+
+2. SETUP PROJECT
+   - Clone repository:
+     git clone https://github.com/your-username/luxury-user-management.git
+   - Copy files to htdocs:
+     cp -r luxury-user-management /path/to/xampp/htdocs/user-management
+
+3. ACCESS APPLICATION
+   - Open browser and visit:
+     http://localhost/user-management/
+
+## Database Setup (Automatic)
+- Database 'user_management' will be created automatically
+- 'users' table with structure will be created on first run
+
+- ## Basic Usage
+
+ADD USER:
+1. Enter full name
+2. Enter age (1-120)
+3. Click "Add User"
+
+TOGGLE STATUS:
+- Click the status switch (Green=Active, Red=Inactive)
+
+DELETE USER:
+1. Click "Delete" button
+2. Confirm in dialog
+
+## Troubleshooting
+- Ensure Apache and MySQL are running
+- Check PHP version (requires PHP 7.0+)
+- Verify database credentials in config if manual setup needed
+
